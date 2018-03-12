@@ -1,0 +1,91 @@
+html,body
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Arial';line-height: normal;
+    background-color: #fff;
+}
+.wrapper 
+{
+    min-width: 940px;
+    max-width: 100%;
+    min-width: 100%;
+    position: relative;
+    background-color:#f3f3f3;
+
+}
+header
+{
+    width: 100%;
+    height: 160px;
+    position: absolute;
+}
+.in{
+    min-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lcom
+{
+
+    float: right;
+    margin-right: 166px;
+    margin-top: 33px;
+}
+.lcom a
+{
+    text-decoration: underline;
+    color: #798088;
+}
+.logo
+{
+    margin-top: 49px;
+    margin-left: 97px;
+    margin-right: 39px;
+}
+nav
+{
+    width:769px;
+    height: 69px;
+    position: absolute;
+    left: 385px;
+    bottom: 37px;
+}
+nav>ul li  a
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(to top, #77ac2a , #afe164);
+    color: #f8fff4;
+    margin-right: -5px;
+    display: inline-block;
+    
+}
+.tel 
+{
+    color: #93969b;
+    margin-left: 157px;
+    margin-top: 33px;
+
+}
+.tel a
+{
+    font-size: 20px;
+    color: #84bc33;
+    font-size: bold;
+    
+}
+.tel span
+{
+    font-size: 13px;
+    color: #84bc33;
+    font-weight: bold;
+}
+
+
