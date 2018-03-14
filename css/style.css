@@ -5,9 +5,10 @@ html,body
     position: relative;
     box-sizing: border-box;
     font-family: 'Arial';line-height: normal;
-     background-color:#f3f3f3;
+     background-color:#f2f2f2;
 }
-.wrapper 
+
+#history,#index
 {
     min-width: 1000px;
     max-width: 100%;
@@ -16,6 +17,7 @@ html,body
    
 
 }
+
 header
 {
     width: 100%;
@@ -117,6 +119,10 @@ display: block;
     padding-right: 20px;
     text-decoration: underline;
     
+}
+.hovmen li a:hover
+{
+    color: grey;
 }
 main
 {
@@ -220,4 +226,76 @@ i
     margin-top: 50px;
     color: #aaabb0;
     margin-left: 495px;
+}
+#history main h1
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#history main
+{
+
+    margin-left: 233px;
+    margin-right: 149px;
+    border-bottom: 1px solid #dcdcde;
+    padding-bottom: 61px;
+    margin-bottom: 125px;
+}
+.mp
+{
+    float: left;
+    margin-right: 20px;
+}
+.mp:after
+{
+    content: '';
+    clear: both;
+}
+#history b
+{
+    font-family: 'Tahoma';
+    text-align: justify;
+    font-size: 12px;
+    color: #494b4e;
+}
+#history b p {
+    font-style: italic;
+    font-size: 12px;
+    font-family: 'Tahoma';
+    float: right;
+    margin-right: 17px;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    margin-left: 87px;}
+b p:after
+{
+    content: '';
+    clear: both;
+}
+footer
+{
+    position: relative;
+    width: 100%;
+    height: 147px;
+    top: 214px;
+}
+
+#history .right_column img{
+    height: 25px;
+}
+#history .right_column p
+{
+  display: inline-block;
+    width: 105px;
+    background: #f2f2f2;
+}
+#history .right_column
+{
+    position: absolute;
+    top: -162px;
+    left: 132px;
+}
+#history .copy
+{
+    padding-top: 38px;
 }
